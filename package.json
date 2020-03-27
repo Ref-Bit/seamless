@@ -1,0 +1,21 @@
+{
+  "name": "Seamless",
+  "version": "1.0.0",
+  "description": "A simple multipage web app to demonstrate page transitions with Highway Transition package and Parcel Bundler.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "keywords": [],
+  "author": "Ref-Bit",
+  "license": "ISC",
+  "dependencies": {
+    "@dogstudio/highway": "^2.1.3",
+    "gsap": "^2.1.3",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3"
+  }
+}

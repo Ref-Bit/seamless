@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-list {
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.home, .about, .contact {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+
+.home-content, .about-content, .contact-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.home-content img, .about-content img, .contact-content img {
+  height: 70%;
+}
+.home-content h1, .about-content h1, .contact-content h1 {
+  font-size: 50px;
+  margin: 30px 0;
+}
+.home-content p, .about-content p, .contact-content p {
+  font-size: 20px;
+}
+
+.about-presentation p {
+  padding: 0 5rem;
+}
+
+.home {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.about {
+  background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.contact {
+  background-color: #FF9A8B;
+  background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+}
+
+.form-style-8 {
+  font-family: inherit;
+  width: 500px;
+  padding: 30px;
+  background: #FFFFFF;
+  margin: 50px auto;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+
+.form-style-8 h2 {
+  background: #4D4D4D;
+  text-transform: uppercase;
+  font-family: inherit;
+  color: #797979;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 20px;
+  margin: -30px -30px 30px -30px;
+}
+
+.form-style-8 input[type=text],
+.form-style-8 input[type=date],
+.form-style-8 input[type=datetime],
+.form-style-8 input[type=email],
+.form-style-8 input[type=number],
+.form-style-8 input[type=search],
+.form-style-8 input[type=time],
+.form-style-8 input[type=url],
+.form-style-8 input[type=password],
+.form-style-8 textarea,
+.form-style-8 select {
+  box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px inherit, sans-serif;
+  height: 45px;
+}
+
+.form-style-8 textarea {
+  height: 100px;
+  resize: none;
+  overflow: hidden;
+}
+
+.form-style-8 input[type=button],
+.form-style-8 input[type=submit] {
+  box-shadow: 0px 1px 0px 0px #ddd;
+  background-color: #3f3d56;
+  border: 1px solid #bbbfc5;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+}
+
+.form-style-8 input[type=button]:hover,
+.form-style-8 input[type=submit]:hover {
+  border: 1px solid #6c63ff;
+  background-color: #6c63ff;
+  background-image: linear-gradient(90deg, #9d99ee 0%, #6c63ff 55%, #9d99ee 100%);
+}
+
+/*# sourceMappingURL=/style.6b54f5b7.css.map */
